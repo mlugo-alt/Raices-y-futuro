@@ -1,0 +1,185 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>Raíces y Futuro: Sembrando Oportunidades Laborales</title>
+  <link href="https://cdn.jsdelivr.net/npm/tailwindcss@2.2.19/dist/tailwind.min.css" rel="stylesheet">
+  <script src="https://kit.fontawesome.com/a2e0e6adcf.js" crossorigin="anonymous"></script>
+</head>
+<body class="bg-gradient-to-br from-green-50 to-yellow-100 text-gray-900 font-sans">
+  <!-- Menú -->
+  <nav class="bg-green-800 text-white shadow-lg sticky top-0 z-50">
+    <div class="max-w-7xl mx-auto px-4 py-4 flex justify-between items-center">
+      <h1 class="text-2xl font-bold tracking-wide">🌱 Raíces y Futuro</h1>
+      <ul class="flex space-x-6">
+        <li><a href="#inicio" class="hover:text-yellow-400">Inicio</a></li>
+        <li><a href="#objetivos" class="hover:text-yellow-400">Objetivos</a></li>
+        <li><a href="#cursos" class="hover:text-yellow-400">Talleres</a></li>
+        <li><a href="#carreras" class="hover:text-yellow-400">Carreras</a></li>
+        <li><a href="#cronograma" class="hover:text-yellow-400">Cronograma</a></li>
+        <li><a href="#equipo" class="hover:text-yellow-400">Equipo</a></li>
+        <li><a href="#contacto" class="hover:text-yellow-400">Contacto</a></li>
+      </ul>
+    </div>
+  </nav>
+
+  <!-- Inicio -->
+  <section id="inicio" class="text-center py-20 bg-gradient-to-r from-green-800 via-green-600 to-lime-500 text-white">
+    <img src="https://images.unsplash.com/photo-1556761175-4b46a572b786?auto=format&fit=crop&w=1200&q=80" alt="Jóvenes rurales" class="mx-auto mb-6 rounded-xl shadow-2xl max-h-96 object-cover">
+    <h2 class="text-5xl font-extrabold mb-4">Raíces y Futuro: Sembrando Oportunidades Laborales</h2>
+    <p class="max-w-2xl mx-auto text-lg mb-6">Proyecto desarrollado por estudiantes de la <strong>Tecnicatura Universitaria en Gestión e Innovación Pública</strong> de la <strong>Universidad Nacional de Entre Ríos</strong>, con el objetivo de conectar formación, empleo y mentoría para jóvenes rurales.</p>
+    <div class="flex justify-center space-x-4">
+      <a href="#cursos" class="bg-yellow-400 text-green-900 px-6 py-3 rounded-full font-semibold hover:bg-yellow-500 transition">Explorar talleres</a>
+      <a href="https://wa.me/5493436110925" target="_blank" class="bg-green-600 px-6 py-3 rounded-full font-semibold hover:bg-green-700 transition flex items-center"><i class="fab fa-whatsapp mr-2"></i> Contactar por WhatsApp</a>
+    </div>
+  </section>
+
+  <!-- Objetivos -->
+  <section id="objetivos" class="max-w-6xl mx-auto py-16 px-4">
+    <h3 class="text-4xl font-bold text-center mb-10 text-green-800">Objetivos del Proyecto</h3>
+    <div class="grid md:grid-cols-3 gap-8">
+      <div class="bg-white shadow-lg p-6 rounded-lg transform hover:scale-105 transition">
+        <h4 class="font-semibold text-xl mb-2">Capacitar</h4>
+        <p>Ofrecer formación en sectores productivos emergentes como bioeconomía, energías renovables, economía del conocimiento y oficios digitales.</p>
+      </div>
+      <div class="bg-white shadow-lg p-6 rounded-lg transform hover:scale-105 transition">
+        <h4 class="font-semibold text-xl mb-2">Conectar</h4>
+        <p>Vincular jóvenes con empresas, instituciones educativas y mentores para impulsar su inserción laboral y educativa.</p>
+      </div>
+      <div class="bg-white shadow-lg p-6 rounded-lg transform hover:scale-105 transition">
+        <h4 class="font-semibold text-xl mb-2">Transformar</h4>
+        <p>Promover el desarrollo regional sostenible reduciendo brechas de oportunidades y fortaleciendo economías locales.</p>
+      </div>
+    </div>
+  </section>
+
+  <!-- Carreras Universitarias -->
+  <section id="carreras" class="bg-green-50 py-16">
+    <div class="max-w-6xl mx-auto px-4 text-center">
+      <h3 class="text-4xl font-bold mb-10 text-green-800">Carreras Universitarias</h3>
+      <p class="mb-10 text-lg">Estas tecnicaturas y licenciaturas están articuladas al proyecto y orientadas a la inserción laboral en territorios rurales.</p>
+      <div class="grid md:grid-cols-2 gap-8">
+        <a href="#plan-tecnicatura" class="bg-white p-6 rounded-lg shadow-lg hover:shadow-2xl transform hover:scale-105 transition block">
+          <img src="https://images.unsplash.com/photo-1523240795612-9a054b0db644?auto=format&fit=crop&w=800&q=80" class="mb-4 rounded object-cover h-48 w-full" alt="Tecnicatura">
+          <h4 class="font-semibold text-xl mb-2">Tecnicatura en Gestión e Innovación Pública</h4>
+          <p>Duración: 3 años | Título: Técnico/a Universitario/a en Gestión e Innovación Pública</p>
+        </a>
+        <a href="#plan-licenciatura" class="bg-white p-6 rounded-lg shadow-lg hover:shadow-2xl transform hover:scale-105 transition block">
+          <img src="https://images.unsplash.com/photo-1503676260728-1c00da094a0b?auto=format&fit=crop&w=800&q=80" class="mb-4 rounded object-cover h-48 w-full" alt="Licenciatura">
+          <h4 class="font-semibold text-xl mb-2">Licenciatura en Políticas Públicas</h4>
+          <p>Duración: 5 años | Título: Licenciado/a en Políticas Públicas</p>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Planes de Estudio -->
+  <section id="plan-tecnicatura" class="max-w-6xl mx-auto py-16 px-4">
+    <h3 class="text-3xl font-bold text-green-800 mb-6">📚 Plan de Estudios - Tecnicatura (3 años)</h3>
+    <ul class="list-disc pl-6 space-y-2">
+      <li>1er año: Introducción a la Gestión Pública, Comunicación Institucional, Economía Política</li>
+      <li>2do año: Políticas Públicas, Innovación y Participación Ciudadana, Herramientas de Planificación</li>
+      <li>3er año: Gestión de Proyectos, Derecho Público, Prácticas Profesionales Supervisadas</li>
+    </ul>
+    <p class="mt-4 font-semibold">Título a obtener: Técnico/a Universitario/a en Gestión e Innovación Pública</p>
+  </section>
+
+  <section id="plan-licenciatura" class="max-w-6xl mx-auto py-16 px-4">
+    <h3 class="text-3xl font-bold text-green-800 mb-6">📚 Plan de Estudios - Licenciatura (5 años)</h3>
+    <ul class="list-disc pl-6 space-y-2">
+      <li>1er año: Fundamentos de Políticas Públicas, Sociología, Historia Argentina</li>
+      <li>2do año: Economía y Estado, Derecho Administrativo, Metodologías de Investigación I</li>
+      <li>3er año: Planificación Estratégica, Políticas Sociales, Estadística Aplicada</li>
+      <li>4to año: Evaluación de Políticas Públicas, Gobernanza, Metodologías II</li>
+      <li>5to año: Seminario Final, Tesis y Prácticas Profesionales</li>
+    </ul>
+    <p class="mt-4 font-semibold">Título a obtener: Licenciado/a en Políticas Públicas</p>
+  </section>
+
+  <!-- Talleres -->
+  <section id="cursos" class="bg-yellow-50 py-16">
+    <div class="max-w-6xl mx-auto px-4 text-center">
+      <h3 class="text-4xl font-bold mb-10 text-green-800">Talleres y Capacitaciones</h3>
+      <p class="mb-10 text-lg">Las actividades comienzan en <strong>marzo</strong> y finalizan en <strong>diciembre</strong>. Al hacer clic en cada taller podrás ver el plan de estudios y detalles de inscripción.</p>
+      <div class="grid md:grid-cols-3 gap-8">
+        <a href="#plan-economia" class="bg-white p-6 rounded-lg shadow-lg hover:shadow-2xl transform hover:scale-105 transition block">
+          <img src="https://images.unsplash.com/photo-1519389950473-47ba0277781c?auto=format&fit=crop&w=800&q=80" class="mb-4 rounded object-cover h-48 w-full" alt="Economía del Conocimiento">
+          <h4 class="font-semibold text-xl mb-2">Economía del Conocimiento</h4>
+          <p>Capacitaciones en programación, marketing digital y habilidades tecnológicas.</p>
+        </a>
+        <a href="#plan-bioeconomia" class="bg-white p-6 rounded-lg shadow-lg hover:shadow-2xl transform hover:scale-105 transition block">
+  <img src="https://images.unsplash.com/photo-1581091215360-1c2b9b1eae58?auto=format&fit=crop&w=800&q=80"
+       class="mb-4 rounded object-cover h-48 w-full"
+       alt="Bioeconomía"
+       onerror="this.src='https://via.placeholder.com/400x300?text=Bioeconomía';">
+  <h4 class="font-semibold text-xl mb-2">Bioeconomía</h4>
+  <p>Talleres sobre producción sustentable, agroinnovación y empleos verdes.</p>
+</a>
+
+        <a href="#plan-energias" class="bg-white p-6 rounded-lg shadow-lg hover:shadow-2xl transform hover:scale-105 transition block">
+          <img src="https://images.unsplash.com/photo-1509395176047-4a66953fd231?auto=format&fit=crop&w=800&q=80" class="mb-4 rounded object-cover h-48 w-full" alt="Energías Renovables">
+          <h4 class="font-semibold text-xl mb-2">Energías Renovables</h4>
+          <p>Formación técnica para impulsar proyectos sustentables en comunidades rurales.</p>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Equipo -->
+  <section id="equipo" class="bg-lime-50 py-16">
+    <div class="max-w-6xl mx-auto text-center px-4">
+      <h3 class="text-4xl font-bold mb-10 text-green-800">Equipo de Trabajo</h3>
+      <p class="max-w-2xl mx-auto mb-6">Somos estudiantes de la <strong>Tecnicatura Universitaria en Gestión e Innovación Pública</strong> comprometidos en transformar realidades y generar oportunidades laborales en territorios rurales.</p>
+      <div class="grid md:grid-cols-3 gap-6">
+        <a href="#" class="bg-white p-4 rounded shadow hover:shadow-lg block">
+          <h4 class="font-semibold">Anabella Aragón</h4>
+          <p>Coordinación General y Comunicación</p>
+        </a>
+        <a href="#" class="bg-white p-4 rounded shadow hover:shadow-lg block">
+          <h4 class="font-semibold">Melanie Ailén Briozzo</h4>
+          <p>Gestión de Alianzas y Mentorías</p>
+        </a>
+        <a href="#" class="bg-white p-4 rounded shadow hover:shadow-lg block">
+          <h4 class="font-semibold">Johana Belén Bruno</h4>
+          <p>Diseño de Estrategias Formativas</p>
+        </a>
+        <a href="#" class="bg-white p-4 rounded shadow hover:shadow-lg block">
+          <h4 class="font-semibold">Viviana Elisa Cabrera</h4>
+          <p>Logística y Operaciones</p>
+        </a>
+        <a href="#" class="bg-white p-4 rounded shadow hover:shadow-lg block">
+          <h4 class="font-semibold">Jorge Daniel Farias</h4>
+          <p>Vinculación con Empresas</p>
+        </a>
+        <a href="#" class="bg-white p-4 rounded shadow hover:shadow-lg block">
+          <h4 class="font-semibold">Gabriela Alejandra Leonetti</h4>
+          <p>Gestión Administrativa y Seguimiento</p>
+        </a>
+        <a href="#" class="bg-white p-4 rounded shadow hover:shadow-lg block">
+          <h4 class="font-semibold">Equipo Técnico</h4>
+          <p>Soporte, Difusión y Capacitación Territorial</p>
+        </a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Contacto -->
+  <section id="contacto" class="py-16 text-center bg-green-800 text-white">
+    <h3 class="text-4xl font-bold mb-4">Contacto</h3>
+    <p class="mb-6 text-lg">Si querés sumarte como mentor, empresa aliada, participante o institución educativa, escribinos o escaneá el QR para unirte al proyecto.</p>
+    <div class="flex justify-center space-x-6 mt-6">
+      <a href="mailto:lajuventudentrerios@gmail.com" class="bg-yellow-400 text-green-900 px-6 py-3 rounded-full font-semibold hover:bg-yellow-500 transition">Escribinos</a>
+      <a href="https://wa.me/5493436110925" target="_blank" class="bg-white text-green-800 px-6 py-3 rounded-full font-semibold flex items-center hover:bg-gray-100 transition"><i class="fab fa-whatsapp mr-2"></i>WhatsApp</a>
+    </div>
+    <div class="mt-10">
+      <img src="https://api.qrserver.com/v1/create-qr-code/?size=150x150&data=https://wa.me/5493436110925" alt="QR WhatsApp" class="mx-auto rounded shadow-lg">
+      <p class="mt-4">📍 Entre Ríos, Argentina | 📞 0343 611-0925</p>
+    </div>
+  </section>
+
+  <footer class="bg-green-900 text-white py-6 text-center">
+    <p>© 2025 Raíces y Futuro: Sembrando Oportunidades Laborales - Proyecto TUGIP | UNER</p>
+  </footer>
+</body>
+</html>
